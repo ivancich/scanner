@@ -1,8 +1,8 @@
-#[allow(unused_imports)];
+#[warn(unused_imports)];
 
 use std::io::fs::File;
 use std::io::mem::MemReader;
-use {Scanner};
+use Scanner;
 
 
 #[test]
