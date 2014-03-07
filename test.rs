@@ -2,7 +2,7 @@
 
 use std::io::fs::File;
 use std::io::mem::MemReader;
-use Scanner;
+use {Scanner};
 
 
 #[test]
