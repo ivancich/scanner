@@ -1,7 +1,7 @@
 #[warn(non_camel_case_types)];
 #[allow(dead_code)];
 
-#[ crate_id = "scanner#0.1.1" ];
+#[ crate_id = "scanner#0.1.2" ];
 #[ crate_type = "lib" ];
 
 #[ desc = "A character stream scanner to make processing input easier." ];
@@ -14,6 +14,8 @@ use std::char::is_whitespace;
 use std::char::is_digit;
 use std::char::to_digit;
 use std::option::Option;
+
+mod test;
 
 struct CharStream<R> {
     buffer : ~BufferedReader<R>,

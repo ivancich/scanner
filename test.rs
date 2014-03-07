@@ -1,7 +1,8 @@
+#[allow(unused_imports)];
+
 use std::io::fs::File;
 use std::io::mem::MemReader;
-
-mod lib;
+use Scanner;
 
 
 #[test]
